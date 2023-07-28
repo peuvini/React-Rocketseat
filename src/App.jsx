@@ -1,7 +1,8 @@
+import {Comment} from './components/Comment.jsx'
 import { Header } from './components/Header.jsx';
 import { Post } from './components/Post.jsx';
 import {Sidebar} from './components/Sidebar.jsx'
-import {Comment} from './components/Comment.jsx'
+
 //JSX = Javascript  + XML(html)
 import styles from './App.module.css'
 import './global.css';
