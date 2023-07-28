@@ -4,6 +4,6 @@
     padding:0 1rem;
     display:grid;
     grid-template-columns: 256px 1fr ;/*  fr eh para dizer que a unidade do grid vai ter um tamanho flexivel */
-    gap:rem;
+    gap: 1rem;
     align-items:flex-start;
 }

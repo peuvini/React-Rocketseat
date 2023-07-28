@@ -1,11 +1,13 @@
+import {Comment} from './Comment.jsx'
 import styles from './Post.module.css'
 
 export function Post(){
     return(
         <article className={styles.post}>
             <header>
-                
+
                 <div className={styles.author}>
+                    
                     <img 
                     className={styles.avatar} 
                     src='https://github.com/peuvini.png'
@@ -47,8 +49,17 @@ export function Post(){
                 placeholder="Deixe um comentario"
                 />
 
-                <button type='submit'> Comentar </button>
+                <footer>
+                    <button type='submit'> Publicar </button>
+                </footer>
             </form>
+
+            <div className={styles.commentList}>
+                 <Comment/>
+                 <Comment/>  
+                 <Comment/>     
+            </div>
+
         </article>
     )
 }
